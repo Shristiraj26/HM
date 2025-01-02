@@ -1,0 +1,43 @@
+/* body {
+    background-color: #f8f9fa;
+}
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.dashboard {
+    margin: 20px;
+}
+ */
+
+
+
+body {
+    background-image: url('/images/Loginimage1.avif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    color: rgb(230, 228, 227);
+    background-color: rgb(103, 132, 132);
+}
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.dashboard {
+    margin: 20px;
+}
