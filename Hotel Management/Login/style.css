@@ -1,43 +1,56 @@
-/* body {
-    background-color: #f8f9fa;
-}
-.login-container {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.dashboard {
-    margin: 20px;
-}
- */
-
-
-
-body {
-    background-image: url('/images/Loginimage1.avif');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+body, html {
+    height: 100%;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-image {
+    background-image: url('/Images/Loginbg.jpg');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.container {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.login-container {
+
+.signin-form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.signin-form h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.signin-form .form-control {
+    background-color: white;
+    color: black;
+}
+
+.signin-form .btn {
+    width: 100%;
+}
+
+.card-body{
     width: 100%;
     max-width: 400px;
     padding: 20px;
     color: rgb(230, 228, 227);
     background-color: rgb(103, 132, 132);
-}
-.card {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.dashboard {
-    margin: 20px;
 }
